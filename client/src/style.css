@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+/* Navbar Container */
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+  background-color: rgba(0, 81, 255, 0.979);
+}
+
+.header-container {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  gap: 50px;
+}
+
+.nav-right h3 {
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 350px;
+  padding: 25px 0;
+}
+
+.card-image {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card h2 {
+  color: black;
+  margin: 1.2rem 0;
+}
+
+.card-btn {
+  background-color: rgba(25, 116, 202, 0.74);
+  border: none;
+  padding: 10px 20px;
+  -o-border-radius: 7px;
+  -o-transition: 0.5s;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.card-btn:hover {
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  background-color: rgba(25, 110, 190, 0.884);
+}
+
+/* Car Container */
+
+.header-car-container {
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.car-image-div {
+  width: 600px;
+  flex: 1;
+}
+.car-image-div img {
+  width: 700px;
+  object-fit: cover;
+}
+
+.car-info-div {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.car-info-div h2,
+p {
+  color: black;
+}
+
+.car-description {
+  width: 350px;
+  text-align: start;
+}
