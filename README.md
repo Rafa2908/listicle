@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='C:\Users\Jose Rafael\Desktop\listicle.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='listicle.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ScreenToGif
 
